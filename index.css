@@ -1,5 +1,10 @@
 #footer {
     background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
+    height: 10vh;
+}
+
+header {
+    height: 10vh;
 }
 
 #footer a {
@@ -10,6 +15,22 @@
     width: 80px;
 }
 
-.col-3 {
-    border: 1px solid blue;
+#main .row {
+    height: 82vh;
+}
+
+#filtros {
+    padding-top: 1vh;
+}
+
+#descripcion {
+    padding-top: 1vh;
+}
+
+#emprend div{
+    height: 4vh;
+}
+
+#emprend {
+    padding-bottom: 5vh;
 }
