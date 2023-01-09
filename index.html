@@ -3,14 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>PRINCIPAL</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
   </head>
-  <body>
-
-
-
+  <body class="d-flex flex-column min-vh-100">
+    <div class="card-header">
     <nav id="header" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -26,42 +24,95 @@
               </li>
             </ul>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn btn-primary me-md-2" type="button">INGRESAR</button>
+                <a class="btn btn-primary" href="ingresar.html" role="button">INGRESAR</a>
                 <button class="btn btn-primary" type="button">REGISTRARSE</button>
             </div>
           </div>
         </div>
     </nav>
+    </div>
 
-
+    <section id="main">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-2" style="background-color:#ccc">FLITROS</div>
+            <div id="filtros" class="col-2" style="background-color:#ccc">
+                <div class="short-div"><h5>FILTROS</h5></div>
+                <div class="container">
+                    <div class="row  overflow-auto">
+                        <form action = " ">  
+                            <div><p>UBICACION</p></div> 
+                            <div class = "form-check">  
+                              <input class = "form-check-input"   
+                                type = "checkbox" id = "checkbox1" name = "option1" value = "good" >  
+                              <label class = "form-check-label"> First Option </label>  
+                            </div>  
+                            <div class = "form-check">  
+                              <input class = "form-check-input"   
+                                type = "checkbox" id = "checkbox2" name = "option2" value = "great" >  
+                              <label class = "form-check-label"> Second Option </label>  
+                            </div>
+                            <div><p>PRECIO</p></div>  
+                            <div class = "form-check">  
+                              <input class = "form-check-input"   
+                                type = "checkbox" id = "checkbox3" name = "option3" value = "better" >  
+                              <label class = "form-check-label"> Third Option </label>  
+                            </div>  
+                            <div class = "form-check">  
+                              <input class = "form-check-input"   
+                                type = "checkbox" id = "checkbox4" name = "option4" value = "best" >  
+                              <label class = "form-check-label"> Fourth Option </label>  
+                            </div>  
+                            <button type = "submit" class = "btn btn-dark"> Submit </button>  
+                            </form>  
+                    </div>
+                </div>
+            
+            </div>
             <div class="col-7">
                 <div class="short-div" style="background-color:#999">
                   <nav class="navbar bg-body-tertiary">
                     <div class="container-fluid justify-content-md-end">
-                      <form class="d-flex" role="search">
+                      <form class="d-flex w-100" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                       </form>
                     </div>
-                  </nav></div>
-                <div class="short-div">Span 6</div>
-                <div class="short-div">Span 6</div>
-                <div class="short-div">Span 6</div>
-                <div class="short-div">Span 6</div>
+                  </nav>
+                </div>
+                <div class="container">
+                    <div id="emprend" class="row overflow-auto">
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
+                <div class="short-div ps-5"><a href="#">EMPRENDIMIENTO</a></div>
             </div>
-            <div class="col-3" style="background-color:#ccc">DESCRIPCION PRODUCTO</div>
+        </div>
+            </div>
+            <div id="descripcion" class="col-3" style="background-color:#ccc">DESCRIPCION PRODUCTO</div>
         </div>
     </div>
+    </section>
     
-    
-    
-    
-    
-
-    <footer id="footer" class="pb-4 pt-4">
+    <footer id="footer" class="pb-4 pt-4 fixed-bottom">
         <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-12 col-lg">
