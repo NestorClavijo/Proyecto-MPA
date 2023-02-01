@@ -1,6 +1,5 @@
 #footer {
     background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
-    height: 10vh;
 }
 
 header {
@@ -15,15 +14,18 @@ header {
     width: 80px;
 }
 
-#main .row {
+#filtros {
+    padding-top: 1vh;
     height: 82vh;
 }
 
-#filtros {
+#cuerpo {
     padding-top: 1vh;
+    height: 82vh;
 }
 
 #descripcion {
+    height: 82vh;
     padding-top: 1vh;
 }
 
@@ -31,9 +33,3 @@ header {
     height: 4vh;
 }
 
-#emprend {
-    padding-bottom: 5vh;
-}
-h2{
-    text-align: center;
-}
