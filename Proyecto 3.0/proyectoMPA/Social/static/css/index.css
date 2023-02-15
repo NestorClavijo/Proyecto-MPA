@@ -1,0 +1,45 @@
+#footer {
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
+}
+
+header {
+    height: 10vh;
+}
+
+#footer a {
+    color: white;
+}
+
+#ep a {
+    color: black;
+}
+
+#header img {
+    width: 80px;
+}
+
+#filtros {
+    padding-top: 1vh;
+    height: 82vh;
+}
+
+#cuerpo {
+    padding-top: 1vh;
+    height: 82vh;
+}
+
+#descripcion {
+    height: 82vh;
+    padding-top: 1vh;
+}
+
+#emprend div{
+    height: 4vh;
+}
+
+#emprend {
+    padding-bottom: 5vh;
+}
+h2{
+    text-align: center;
+}
